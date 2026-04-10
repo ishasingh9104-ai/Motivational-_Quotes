@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Josh On Fire</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h3>🔥 JOSH ON FIRE 🔥</h3>
+    <p class="tag">🏆Grab your today's Motivation</p>
+
+    <div class="quote-card">
+      <p id="quote">Tab on quote</p>
+      <p id="author"></p>
+
+      <div class="buttons">
+        <button onclick="getQuote()">🔥 Get New Quote</button>
+
+        <button onclick="copyQuote()">📋 Copy</button>
+      </div>
+    </div>
+
+    <h4>🏆 Write Your Own Josh Words Below</h4>
+
+    <div class="circleBox">
+      <textarea
+        id="userQuote"
+        placeholder="Write your own powerful quote..."
+      ></textarea>
+    </div>
+
+    <button class="uploadBtn" onclick="uploadQuote()">🚀 Upload</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
